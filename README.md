@@ -1,2 +1,4 @@
 # verilog_fpga_uart
 A simple UART and test bench using Alterra DE2-115
+
+When we consider data, it can arrive by itself or it can arrive with a clock. Data that arrives with a clock is called synchronous. When it arrives without a clock, it is called asynchronous. A UART is an asynchronous interface. UART is referred to as Universal Asynchronous Serial Transmitter. It is also referred to as Serial Port, COM port and RS-232 Interface. It is one of the simplest ways of connecting the FPGA to a computer, using a transmitting module and a receiving module, to send commands to the FPGA and vice-versa. This paper includes information about transmitting data from an FPGA to a computer using a UART. For the compiling of the RTL code and the implementation of data transmission, ‘Quartus’ 2 web edition version 13.0 and ‘Altera DE2-115 Education and Development board with Cyclone IV FPGA device used.
